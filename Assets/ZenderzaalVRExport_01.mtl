@@ -1,0 +1,180 @@
+﻿newmtl /Game/Packs/DVIZ_PALMPACK_01/Materials/House/MI_TreePack02_Walls_Inst1_MI_TreePack02_Walls_Inst1
+	map_Kd MI_TreePack02_Walls_Inst1_MI_TreePack02_Walls_Inst1_D.bmp
+	map_Ks MI_TreePack02_Walls_Inst1_MI_TreePack02_Walls_Inst1_S.bmp
+	bump MI_TreePack02_Walls_Inst1_MI_TreePack02_Walls_Inst1_N.bmp
+
+newmtl /Engine/BasicShapes/BasicShapeMaterial_BasicShapeMaterial
+	map_Kd BasicShapeMaterial_BasicShapeMaterial_D.bmp
+	map_Ks BasicShapeMaterial_BasicShapeMaterial_S.bmp
+	bump BasicShapeMaterial_BasicShapeMaterial_N.bmp
+
+newmtl /Game/Packs/DVIZ_PALMPACK_01/Materials/House/MI_TreePack02_Walls_Inst_MI_TreePack02_Walls_Inst
+	map_Kd MI_TreePack02_Walls_Inst_MI_TreePack02_Walls_Inst_D.bmp
+	map_Ks MI_TreePack02_Walls_Inst_MI_TreePack02_Walls_Inst_S.bmp
+	bump MI_TreePack02_Walls_Inst_MI_TreePack02_Walls_Inst_N.bmp
+
+newmtl /Game/AIUE_V02_003/Materials/plastic/dark_plastic_dark_plastic
+	map_Kd dark_plastic_dark_plastic_D.bmp
+	map_Ks dark_plastic_dark_plastic_S.bmp
+	bump dark_plastic_dark_plastic_N.bmp
+
+newmtl /Game/AIUE_V02_003/Materials/plastic/bathroom_013_flower_plastik_v1_MAT_bathroom_013_flower_plastik_v1_MAT
+	map_Kd bathroom_013_flower_plastik_v1_MAT_bathroom_013_flower_plastik_v1_MAT_D.bmp
+	map_Ks bathroom_013_flower_plastik_v1_MAT_bathroom_013_flower_plastik_v1_MAT_S.bmp
+	bump bathroom_013_flower_plastik_v1_MAT_bathroom_013_flower_plastik_v1_MAT_N.bmp
+
+newmtl /Game/AIUE_V02_003/Materials/other/basic_grey_basic_grey
+	map_Kd basic_grey_basic_grey_D.bmp
+	map_Ks basic_grey_basic_grey_S.bmp
+	bump basic_grey_basic_grey_N.bmp
+
+newmtl /Game/AIUE_V02_003/Materials/metal/brushed_chrome_brushed_chrome
+	map_Kd brushed_chrome_brushed_chrome_D.bmp
+	map_Ks brushed_chrome_brushed_chrome_S.bmp
+	bump brushed_chrome_brushed_chrome_N.bmp
+
+newmtl /Game/AIUE_V02_003/Materials/fabric/leather_black_leather_black
+	map_Kd leather_black_leather_black_D.bmp
+	map_Ks leather_black_leather_black_S.bmp
+	bump leather_black_leather_black_N.bmp
+
+newmtl /Game/Megascans/Surfaces/_sdxkdfwa/NewMaterial_NewMaterial
+	map_Kd NewMaterial_NewMaterial_D.bmp
+	map_Ks NewMaterial_NewMaterial_S.bmp
+	bump NewMaterial_NewMaterial_N.bmp
+
+newmtl /Game/Megascans/Surfaces/Brick_Facade_vizcegj/Brick_Brick
+	map_Kd Brick_Brick_D.bmp
+	map_Ks Brick_Brick_S.bmp
+	bump Brick_Brick_N.bmp
+
+newmtl /Game/DS_IMPORT/1812_R20_Nozema_Lopikerkapel_zenderzaal/Materials/RNT_Material_RNT_Material
+	map_Kd RNT_Material_RNT_Material_D.bmp
+	map_Ks RNT_Material_RNT_Material_S.bmp
+	bump RNT_Material_RNT_Material_N.bmp
+
+newmtl /Game/DS_IMPORT/1812_R20_Nozema_Lopikerkapel_zenderzaal/Materials/BR_Volume_wit_BR_Volume_wit
+	map_Kd BR_Volume_wit_BR_Volume_wit_D.bmp
+	map_Ks BR_Volume_wit_BR_Volume_wit_S.bmp
+	bump BR_Volume_wit_BR_Volume_wit_N.bmp
+
+newmtl /Game/Megascans/Surfaces/Wet_Cement_rldaqsp0/Roof_Roof
+	map_Kd Roof_Roof_D.bmp
+	map_Ks Roof_Roof_S.bmp
+	bump Roof_Roof_N.bmp
+
+newmtl /Game/TEXTURES/logo-iboma_Mat_logo-iboma_Mat
+	map_Kd logo-iboma_Mat_logo-iboma_Mat_D.bmp
+	map_Ks logo-iboma_Mat_logo-iboma_Mat_S.bmp
+	bump logo-iboma_Mat_logo-iboma_Mat_N.bmp
+
+newmtl /Game/TEXTURES/NewMaterial_NewMaterial
+	map_Kd NewMaterial_NewMaterial_D.bmp
+	map_Ks NewMaterial_NewMaterial_S.bmp
+	bump NewMaterial_NewMaterial_N.bmp
+
+newmtl /Game/Geometry/Meshes/SCALEPAEL/Woud_Woud
+	map_Kd Woud_Woud_D.bmp
+	map_Ks Woud_Woud_S.bmp
+	bump Woud_Woud_N.bmp
+
+newmtl /Game/Geometry/Meshes/SCALEPAEL/Black_Black
+	map_Kd Black_Black_D.bmp
+	map_Ks Black_Black_S.bmp
+	bump Black_Black_N.bmp
+
+newmtl /Game/DS_IMPORT/1812_R20_Nozema_Lopikerkapel_zenderzaal/Materials/BR_metaal_trap-grijs_BR_metaal_trap-grijs
+	map_Kd BR_metaal_trap-grijs_BR_metaal_trap-grijs_D.bmp
+	map_Ks BR_metaal_trap-grijs_BR_metaal_trap-grijs_S.bmp
+	bump BR_metaal_trap-grijs_BR_metaal_trap-grijs_N.bmp
+
+newmtl /Game/DS_IMPORT/1812_R20_Nozema_Lopikerkapel_zenderzaal/Materials/Wit_Wit
+	map_Kd Wit_Wit_D.bmp
+	map_Ks Wit_Wit_S.bmp
+	bump Wit_Wit_N.bmp
+
+newmtl /Game/DS_IMPORT/1812_R20_Nozema_Lopikerkapel_zenderzaal/Materials/BR_metselwerk_BR_metselwerk
+	map_Kd BR_metselwerk_BR_metselwerk_D.bmp
+	map_Ks BR_metselwerk_BR_metselwerk_S.bmp
+	bump BR_metselwerk_BR_metselwerk_N.bmp
+
+newmtl /Game/DS_IMPORT/1812_R20_Nozema_Lopikerkapel_zenderzaal/Materials/BR_basis_BR_basis
+	map_Kd BR_basis_BR_basis_D.bmp
+	map_Ks BR_basis_BR_basis_S.bmp
+	bump BR_basis_BR_basis_N.bmp
+
+newmtl /Game/DS_IMPORT/1812_R20_Nozema_Lopikerkapel_zenderzaal/Materials/BR_beton_BR_beton
+	map_Kd BR_beton_BR_beton_D.bmp
+	map_Ks BR_beton_BR_beton_S.bmp
+	bump BR_beton_BR_beton_N.bmp
+
+newmtl /Game/Materials/M_ConcreteFloor_M_ConcreteFloor
+	map_Kd M_ConcreteFloor_M_ConcreteFloor_D.bmp
+	map_Ks M_ConcreteFloor_M_ConcreteFloor_S.bmp
+	bump M_ConcreteFloor_M_ConcreteFloor_N.bmp
+
+newmtl /Game/DS_IMPORT/1812_R20_Nozema_Lopikerkapel_zenderzaal/Materials/BR_luchtspouw_BR_luchtspouw
+	map_Kd BR_luchtspouw_BR_luchtspouw_D.bmp
+	map_Ks BR_luchtspouw_BR_luchtspouw_S.bmp
+	bump BR_luchtspouw_BR_luchtspouw_N.bmp
+
+newmtl /Game/DS_IMPORT/1812_R20_Nozema_Lopikerkapel_zenderzaal/Materials/BR_gipsplaat_BR_gipsplaat
+	map_Kd BR_gipsplaat_BR_gipsplaat_D.bmp
+	map_Ks BR_gipsplaat_BR_gipsplaat_S.bmp
+	bump BR_gipsplaat_BR_gipsplaat_N.bmp
+
+newmtl /Game/DS_IMPORT/1812_R20_Nozema_Lopikerkapel_zenderzaal/Materials/BR_glas_BR_glas
+	map_Kd BR_glas_BR_glas_D.bmp
+	map_Ks BR_glas_BR_glas_S.bmp
+	bump BR_glas_BR_glas_N.bmp
+
+newmtl /Game/DS_IMPORT/1812_R20_Nozema_Lopikerkapel_zenderzaal/Materials/BR_aluminium-wit_BR_aluminium-wit
+	map_Kd BR_aluminium-wit_BR_aluminium-wit_D.bmp
+	map_Ks BR_aluminium-wit_BR_aluminium-wit_S.bmp
+	bump BR_aluminium-wit_BR_aluminium-wit_N.bmp
+
+newmtl /Game/DS_IMPORT/1812_R20_Nozema_Lopikerkapel_zenderzaal/Materials/BR_metaal_deur-zwart_BR_metaal_deur-zwart
+	map_Kd BR_metaal_deur-zwart_BR_metaal_deur-zwart_D.bmp
+	map_Ks BR_metaal_deur-zwart_BR_metaal_deur-zwart_S.bmp
+	bump BR_metaal_deur-zwart_BR_metaal_deur-zwart_N.bmp
+
+newmtl /Game/DS_IMPORT/1812_R20_Nozema_Lopikerkapel_zenderzaal/Materials/BR_Kozijn-wit_BR_Kozijn-wit
+	map_Kd BR_Kozijn-wit_BR_Kozijn-wit_D.bmp
+	map_Ks BR_Kozijn-wit_BR_Kozijn-wit_S.bmp
+	bump BR_Kozijn-wit_BR_Kozijn-wit_N.bmp
+
+newmtl /Game/DS_IMPORT/1812_R20_Nozema_Lopikerkapel_zenderzaal/Materials/BR_metaal_deur-wit_BR_metaal_deur-wit
+	map_Kd BR_metaal_deur-wit_BR_metaal_deur-wit_D.bmp
+	map_Ks BR_metaal_deur-wit_BR_metaal_deur-wit_S.bmp
+	bump BR_metaal_deur-wit_BR_metaal_deur-wit_N.bmp
+
+newmtl /Game/Packs/DVIZ_PALMPACK_01/Materials/House/M_TreePack02_Glass_Inst_M_TreePack02_Glass_Inst
+	map_Kd M_TreePack02_Glass_Inst_M_TreePack02_Glass_Inst_D.bmp
+	map_Ks M_TreePack02_Glass_Inst_M_TreePack02_Glass_Inst_S.bmp
+	bump M_TreePack02_Glass_Inst_M_TreePack02_Glass_Inst_N.bmp
+
+newmtl /Game/DS_IMPORT/1812_R20_Nozema_Lopikerkapel_zenderzaal/Materials/BR_staal-lichtbeige_BR_staal-lichtbeige
+	map_Kd BR_staal-lichtbeige_BR_staal-lichtbeige_D.bmp
+	map_Ks BR_staal-lichtbeige_BR_staal-lichtbeige_S.bmp
+	bump BR_staal-lichtbeige_BR_staal-lichtbeige_N.bmp
+
+newmtl /Game/DS_IMPORT/1812_R20_Nozema_Lopikerkapel_zenderzaal/Materials/BR_hout_BR_hout
+	map_Kd BR_hout_BR_hout_D.bmp
+	map_Ks BR_hout_BR_hout_S.bmp
+	bump BR_hout_BR_hout_N.bmp
+
+newmtl /Game/Packs/DVIZ_PALMPACK_01/Materials/House/M_TreePack02_Walls_M_TreePack02_Walls
+	map_Kd M_TreePack02_Walls_M_TreePack02_Walls_D.bmp
+	map_Ks M_TreePack02_Walls_M_TreePack02_Walls_S.bmp
+	bump M_TreePack02_Walls_M_TreePack02_Walls_N.bmp
+
+newmtl /Game/DS_IMPORT/1812_R20_Nozema_Lopikerkapel_zenderzaal/Materials/BR_kunstgraniet_BR_kunstgraniet
+	map_Kd BR_kunstgraniet_BR_kunstgraniet_D.bmp
+	map_Ks BR_kunstgraniet_BR_kunstgraniet_S.bmp
+	bump BR_kunstgraniet_BR_kunstgraniet_N.bmp
+
+newmtl /Game/Packs/DVIZ_PALMPACK_01/Materials/House/NewMaterial_Inst_NewMaterial_Inst
+	map_Kd NewMaterial_Inst_NewMaterial_Inst_D.bmp
+	map_Ks NewMaterial_Inst_NewMaterial_Inst_S.bmp
+	bump NewMaterial_Inst_NewMaterial_Inst_N.bmp
+
