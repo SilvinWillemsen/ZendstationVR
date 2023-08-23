@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1bdd5eecc9e042d4e885580fe5480782
+guid: 5af7f78a5fcf2416bbb46ae34f738af1
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -8,17 +8,22 @@ ModelImporter:
       type: UnityEngine:Cubemap
       assembly: UnityEngine.CoreModule
       name: diffuse_cube
-    second: {fileID: 8900000, guid: 7a1c85fd520f8b442b349e5940bb8fb2, type: 3}
+    second: {fileID: 8900000, guid: 4b412b53446d54c5bb22d0c5ecdf5cc9, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shell_quest2ControllerMAT
+    second: {fileID: 2100000, guid: fa1b8d1d32a4b4a26a6c6fbadebf8316, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: nextControllerBoth_color1k
-    second: {fileID: 2800000, guid: 5e99600b461dfb04c92ead4ce55a4f00, type: 3}
+    second: {fileID: 2800000, guid: a07125632c63448c883780982eb2cc07, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: nextControllerBoth_properties1kGLTF
-    second: {fileID: 2800000, guid: f76b12d142eef2a4ab00f3121e59f797, type: 3}
+    second: {fileID: 2800000, guid: 976a9ce09ffc740b583a303f3077a3db, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

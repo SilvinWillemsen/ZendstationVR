@@ -1,17 +1,9 @@
 fileFormatVersion: 2
-guid: a0f2e416fe09a3e458e3da32b275ae31
+guid: b0ddd87ce95ec4e94986ea6e82d0cceb
 ModelImporter:
   serializedVersion: 21300
-  internalIDToNameTable:
-  - first:
-      74: 5712509923591452515
-    second: Idle
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: unnamed1
-    second: {fileID: 2100000, guid: 4dd5b87a54d2b3e47b12bb42f7843cfc, type: 2}
+  internalIDToNameTable: []
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -22,7 +14,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    removeConstantScaleCurves: 0
+    removeConstantScaleCurves: 1
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -39,37 +31,8 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Idle
-      takeName: r_hand_skeletal_lowres
-      internalID: 0
-      firstFrame: 1
-      lastFrame: 2
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 1
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    isReadable: 1
+    clipAnimations: []
+    isReadable: 0
   meshes:
     lODScreenPercentages: []
     globalScale: 1
@@ -81,8 +44,8 @@ ModelImporter:
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
-    nodeNameCollisionStrategy: 0
-    fileIdsGeneration: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -134,9 +97,9 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 1
-  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
-  remapMaterialsIfMaterialImportModeIsNone: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
