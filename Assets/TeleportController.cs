@@ -15,7 +15,7 @@ public class TeleportController : MonoBehaviour
 
     [Space]
     public UnityEvent onTeleportActivate;
-    public UnityEvent onTeleportCancel; 
+    public UnityEvent onTeleportCancel;
 
     // Start is called before the first frame update
     void Start()
