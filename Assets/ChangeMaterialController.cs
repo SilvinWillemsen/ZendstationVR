@@ -16,6 +16,7 @@ public class ChangeMaterialController : MonoBehaviour
     public UnityEvent onAButtonClicked;
     public UnityEvent onBButtonClicked;
 
+    bool init = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +27,17 @@ public class ChangeMaterialController : MonoBehaviour
         // Select material A to begin with
         //SelectMaterialA();
     }
+
+    private void Update()
+    {
+        //if (init)
+        //{
+        //    SelectMaterialA();
+        //    init = false;
+        //}
+
+    }
+
     private void ClickAButton(InputAction.CallbackContext obj) => onAButtonClicked.Invoke();
     private void ClickBButton(InputAction.CallbackContext obj) => onBButtonClicked.Invoke();
 
