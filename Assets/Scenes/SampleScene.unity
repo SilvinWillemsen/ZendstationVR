@@ -5092,15 +5092,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ce8de0c9d87145758ce01cdfc9e3ab1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AudioSource: {fileID: 701383720}
-  XbuttonClick: {fileID: 8957443236229058949, guid: da2b439d1a2de5c46a4f428f8cf4fe19, type: 3}
-  YbuttonClick: {fileID: 0}
+  audioSource: {fileID: 701383720}
+  audioClips:
+  - {fileID: 8300000, guid: ca842a140a181db4dbd7223720f38bb3, type: 3}
+  - {fileID: 8300000, guid: a3cd93bbaee3042a7b008e845e155bbd, type: 3}
+  XbuttonClick: {fileID: -2546060806851643293, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  YbuttonClick: {fileID: -6536335611810621693, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   onXButtonClicked:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1810145509}
+        m_TargetAssemblyTypeName: ChangeSourceController, Assembly-CSharp
+        m_MethodName: SelectSourceX
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onYButtonClicked:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1810145509}
+        m_TargetAssemblyTypeName: ChangeSourceController, Assembly-CSharp
+        m_MethodName: SelectSourceY
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &1811729513 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 12acca55b3b914f5788006154636b42c, type: 3}
