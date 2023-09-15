@@ -768,6 +768,24 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "PressA",
+                    "type": "Button",
+                    "id": "64f7dc46-7149-4c2d-8f9c-e00698038e4a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PressB",
+                    "type": "Button",
+                    "id": "55ed4d13-e659-471d-9a98-25a93fe739f8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -817,8 +835,8 @@
                 },
                 {
                     "name": "",
-                    "id": "92bb5b8f-bf48-4dab-af05-50a865773895",
-                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "id": "b2cdfb7a-5d74-4ef6-b10c-ba7f77c93257",
+                    "path": "<XRController>{RightHand}/triggerButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "Generic XR Controller",
@@ -856,6 +874,28 @@
                     "processors": "ScaleVector2(x=0),StickDeadzone",
                     "groups": "Generic XR Controller",
                     "action": "Translate Anchor",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4407fdb6-2064-4f61-ab01-009cde3bb373",
+                    "path": "<XRController>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PressA",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "66f72d72-917a-4b84-8bba-3602e78c03eb",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PressB",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
