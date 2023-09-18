@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028353, g: 0.22571383, b: 0.30692253, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1045,6 +1045,7 @@ GameObject:
   - component: {fileID: 625699525}
   - component: {fileID: 625699524}
   - component: {fileID: 625699523}
+  - component: {fileID: 625699526}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -1099,6 +1100,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+--- !u!114 &625699526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 625699522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44f66fb5d501b4fa38719f2cf00c3b60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &683436523
 GameObject:
   m_ObjectHideFlags: 0
@@ -1553,7 +1566,7 @@ AudioSource:
   m_GameObject: {fileID: 701383718}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: ebe8b3dfbce5b57408f0fcd6e5594171, type: 2}
   m_audioClip: {fileID: 8300000, guid: ca842a140a181db4dbd7223720f38bb3, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -2420,7 +2433,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb43d10a308b2f46ad4561774f97e52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asset: {fileID: 11400000, guid: 3eec6939f94c34fd29af4c2dc79b2806, type: 2}
+  asset: {fileID: 11400000, guid: 8ecf27ecbac7cb747ba71bf0dd1e922a, type: 2}
 --- !u!1 &951114832
 GameObject:
   m_ObjectHideFlags: 0
@@ -2909,7 +2922,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
@@ -6284,7 +6297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb43d10a308b2f46ad4561774f97e52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asset: {fileID: 11400000, guid: 13c9c53b7c07e493790a7282438b358f, type: 2}
+  asset: {fileID: 11400000, guid: 017149bfa0b069d45b560ea77ab58f97, type: 2}
 --- !u!4 &2060944764 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8220382583221551341, guid: f8da70bfe4f815f4ba3764a7e7b63fd2, type: 3}

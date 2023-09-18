@@ -22,6 +22,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "TakeOff",
+                    "type": "Button",
+                    "id": "1190f65c-9d9b-4172-8eac-4c81d3f385d4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -44,6 +53,17 @@
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "25bc862d-3ba4-476b-b5dd-da69318d9b6b",
+                    "path": "<XRInputV1::OpenXR::HeadTrackingOpenXR>/userpresence",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TakeOff",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

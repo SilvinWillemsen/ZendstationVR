@@ -1,49 +1,52 @@
 using UnityEngine;
 using UnityEngine.XR;
- 
+
 public class TestDeviceState : MonoBehaviour
 {
+    public GameObject mainCamera;
+
+    private Vector3 lastPosition = new Vector3();
+    private bool hmdOff = true;
+    private bool hmdJustOff = false;
+    float time = 0; 
     void Start()
     {
-        InputDevices.deviceConnected += DeviceConnected;
-        InputDevices.deviceDisconnected += DeviceDisconnected;
-        InputDevices.deviceConfigChanged += ConfigChanged;
+        lastPosition = mainCamera.transform.position;
     }
- 
-    private void ConfigChanged(InputDevice inputDevice)
+
+    void Update()
     {
-        if ((inputDevice.characteristics & InputDeviceCharacteristics.HeadMounted) == InputDeviceCharacteristics.HeadMounted)
+        if (mainCamera.transform.position == lastPosition)
         {
-            Debug.Log($"HMD Changed!");
+            if (!hmdJustOff && !hmdOff)
+            {
+                time = Time.time;
+                hmdJustOff = true;
+            }
         }
-        else if ((inputDevice.characteristics & InputDeviceCharacteristics.HeldInHand) == InputDeviceCharacteristics.HeldInHand)
+        else
         {
-            Debug.Log($"Controller Changed: {inputDevice.name} || {inputDevice.characteristics}");
+            if (hmdJustOff)
+            {
+                hmdJustOff = false;
+                Debug.Log ("HMD off-taking cancelled..");
+            }
+
+            if (hmdOff)
+            {
+                Debug.Log ("HMD is on again!");
+                hmdJustOff = false;
+                hmdOff = false;
+            }
         }
-    }
- 
-    private void DeviceConnected(InputDevice inputDevice)
-    {
-        if ((inputDevice.characteristics & InputDeviceCharacteristics.HeadMounted) == InputDeviceCharacteristics.HeadMounted)
+
+        if (Time.time - time > 3 && hmdJustOff)
         {
-            Debug.Log($"HMD Connected!");
+            Debug.Log ("HMD is off!!");
+            hmdJustOff = false;
+            hmdOff = true;
         }
-        else if ((inputDevice.characteristics & InputDeviceCharacteristics.HeldInHand) == InputDeviceCharacteristics.HeldInHand)
-        {
-            Debug.Log($"Controller Disconnected: {inputDevice.name} || {inputDevice.characteristics}");
-        }
-    }
- 
-    private void DeviceDisconnected(InputDevice inputDevice)
-    {
-        if ((inputDevice.characteristics & InputDeviceCharacteristics.HeadMounted) == InputDeviceCharacteristics.HeadMounted)
-        {
-            Debug.LogWarning($"HMD Disconnected!");
-        }
-        else if ((inputDevice.characteristics & InputDeviceCharacteristics.HeldInHand) == InputDeviceCharacteristics.HeldInHand)
-        {
-            Debug.LogWarning($"Controller Disconnected: {inputDevice.name} || {inputDevice.characteristics}");
-        }
- 
+        lastPosition = mainCamera.transform.position;
+
     }
 }
