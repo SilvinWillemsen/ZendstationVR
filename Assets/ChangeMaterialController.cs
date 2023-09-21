@@ -30,11 +30,11 @@ public class ChangeMaterialController : MonoBehaviour
 
     private void Update()
     {
-        //if (init)
-        //{
+        // if (init)
+        // {
         //    SelectMaterialA();
         //    init = false;
-        //}
+        // }
 
     }
 
