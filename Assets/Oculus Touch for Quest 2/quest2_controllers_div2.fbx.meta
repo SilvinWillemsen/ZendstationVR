@@ -10,6 +10,11 @@ ModelImporter:
       name: diffuse_cube
     second: {fileID: 8900000, guid: 7a1c85fd520f8b442b349e5940bb8fb2, type: 3}
   - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shell_quest2ControllerMAT
+    second: {fileID: 2100000, guid: 440da4815eb524edea0a78ba5255bd0e, type: 2}
+  - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: nextControllerBoth_color1k
