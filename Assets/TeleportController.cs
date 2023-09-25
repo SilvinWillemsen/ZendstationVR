@@ -13,9 +13,12 @@ public class TeleportController : MonoBehaviour
 
     public InputActionReference teleportActivationReference;
 
+    public GameObject teleportationArea;
+
     [Space]
     public UnityEvent onTeleportActivate;
     public UnityEvent onTeleportCancel;
+
 
     // Start is called before the first frame update
     void Start()
@@ -29,5 +32,19 @@ public class TeleportController : MonoBehaviour
     void DeactivateTeleporter() => onTeleportCancel.Invoke();
 
     private void TeleportModeActivate(InputAction.CallbackContext obj) => onTeleportActivate.Invoke();
+
+    public void ToggleTeleportationAreaMesh (bool shouldBeVisible)
+    {
+        foreach (Transform child in teleportationArea.transform)
+        {
+            if (child.GetComponent<MeshRenderer>())
+                child.GetComponent<MeshRenderer>().enabled = shouldBeVisible;
+            foreach (Transform childChild in child)
+            {
+                if (childChild.GetComponent<MeshRenderer>())
+                    childChild.GetComponent<MeshRenderer>().enabled = shouldBeVisible;
+            }
+        }
+    }
 
 }
