@@ -6,23 +6,23 @@ using UnityEngine.Events;
 using TMPro;
 public class ChangeMaterialController : MonoBehaviour
 {
-    public GameObject ZenderZaalA;
-    public GameObject ZenderZaalB;
+    public GameObject ZenderZaalAbsorbing;
+    public GameObject ZenderZaalReflecting;
 
     public InputActionReference AbuttonClick;
     public InputActionReference BbuttonClick;
 
     [Space]
-    public UnityEvent onAButtonClicked;
-    public UnityEvent onBButtonClicked;
+    public UnityEvent onButtonClicked;
 
     bool init = true;
+    bool panelsOn = false;
     // Start is called before the first frame update
     void Start()
     {
 
-        AbuttonClick.action.performed += ClickAButton;
-        BbuttonClick.action.performed += ClickBButton;
+        AbuttonClick.action.performed += ClickButton;
+        BbuttonClick.action.performed += ClickButton;
 
         // Select material A to begin with
         //SelectMaterialA();
@@ -38,18 +38,12 @@ public class ChangeMaterialController : MonoBehaviour
 
     }
 
-    private void ClickAButton(InputAction.CallbackContext obj) => onAButtonClicked.Invoke();
-    private void ClickBButton(InputAction.CallbackContext obj) => onBButtonClicked.Invoke();
+    private void ClickButton(InputAction.CallbackContext obj) => onButtonClicked.Invoke();
 
-    public void SelectMaterialA()
+    public void ChangeMaterial()
     {
-        ZenderZaalA.SetActive (true);
-        ZenderZaalB.SetActive (false);
+        panelsOn = !panelsOn;
+        ZenderZaalAbsorbing.SetActive (!panelsOn);
+        ZenderZaalReflecting.SetActive (panelsOn);
     }
-    public void SelectMaterialB()
-    {
-        ZenderZaalA.SetActive (false);
-        ZenderZaalB.SetActive (true);
-    }
-
 }

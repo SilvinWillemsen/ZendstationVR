@@ -12,16 +12,16 @@ public class ChangeSourceController : MonoBehaviour
     public InputActionReference YbuttonClick;
 
     [Space]
-    public UnityEvent onXButtonClicked;
-    public UnityEvent onYButtonClicked;
+    public UnityEvent onButtonClicked;
 
     bool init = true;
+    bool sourceIsPiano = true;
     // Start is called before the first frame update
     void Start()
     {
 
-        XbuttonClick.action.performed += ClickXButton;
-        YbuttonClick.action.performed += ClickYButton;
+        XbuttonClick.action.performed += ClickButton;
+        YbuttonClick.action.performed += ClickButton;
 
         // Select material A to begin with
         //SelectMaterialA();
@@ -37,20 +37,15 @@ public class ChangeSourceController : MonoBehaviour
 
     }
 
-    private void ClickXButton(InputAction.CallbackContext obj) => onXButtonClicked.Invoke();
-    private void ClickYButton(InputAction.CallbackContext obj) => onYButtonClicked.Invoke();
-
-    public void SelectSourceX()
+    private void ClickButton(InputAction.CallbackContext obj) => onButtonClicked.Invoke();
+    public void ChangeSource()
     {
+        sourceIsPiano = !sourceIsPiano;
         audioSource.Stop();
-        audioSource.clip = audioClips[0];
+        if (sourceIsPiano)
+            audioSource.clip = audioClips[0];
+        else
+            audioSource.clip = audioClips[1];
         audioSource.Play();
     }
-    public void SelectSourceY()
-    {
-        audioSource.Stop();
-        audioSource.clip = audioClips[1];
-        audioSource.Play();
-    }
-
 }
