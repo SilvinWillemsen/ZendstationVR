@@ -12,11 +12,13 @@ public class ChangeMaterialController : MonoBehaviour
     public InputActionReference AbuttonClick;
     public InputActionReference BbuttonClick;
 
+public GameObject scalePanels;
+
     [Space]
     public UnityEvent onButtonClicked;
 
     bool init = true;
-    bool panelsOn = false;
+    bool panelsOn = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -43,7 +45,9 @@ public class ChangeMaterialController : MonoBehaviour
     public void ChangeMaterial()
     {
         panelsOn = !panelsOn;
-        ZenderZaalAbsorbing.SetActive (!panelsOn);
-        ZenderZaalReflecting.SetActive (panelsOn);
+        ZenderZaalAbsorbing.SetActive (panelsOn);
+        ZenderZaalReflecting.SetActive (!panelsOn);
+        scalePanels.SetActive (panelsOn);
+
     }
 }

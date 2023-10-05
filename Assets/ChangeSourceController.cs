@@ -10,6 +10,8 @@ public class ChangeSourceController : MonoBehaviour
     public List<AudioClip> audioClips;
     public InputActionReference XbuttonClick;
     public InputActionReference YbuttonClick;
+    public GameObject piano;
+    public GameObject hands;
 
     [Space]
     public UnityEvent onButtonClicked;
@@ -43,9 +45,17 @@ public class ChangeSourceController : MonoBehaviour
         sourceIsPiano = !sourceIsPiano;
         audioSource.Stop();
         if (sourceIsPiano)
+        {
+            hands.SetActive (false);
+            piano.SetActive (true);
             audioSource.clip = audioClips[0];
+        }
         else
+        {
+            hands.SetActive (true);
+            piano.SetActive (false);
             audioSource.clip = audioClips[1];
+        }
         audioSource.Play();
     }
 }
