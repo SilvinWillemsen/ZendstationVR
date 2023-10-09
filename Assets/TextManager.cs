@@ -13,8 +13,8 @@ public class TextManager : MonoBehaviour
     }
     public void OnTeleportActivate()
     {
-        teleportText.color = Color.cyan;
-        teleportArrow.color = Color.cyan;
+        teleportText.color = Color.red;
+        teleportArrow.color = Color.red;
 
         teleportText.SetText("point down");
         Debug.Log("Teleport activate!");
@@ -51,8 +51,8 @@ public class TextManager : MonoBehaviour
 
     public void OnHoverExitCallback()
     {
-        teleportText.color = Color.cyan;
-        teleportArrow.color = Color.cyan;
+        teleportText.color = Color.red;
+        teleportArrow.color = Color.red;
 
         teleportText.SetText("point down");
         Debug.Log("Hover exit!");
