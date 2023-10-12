@@ -21,7 +21,6 @@ public class ChangeMaterialController : MonoBehaviour
     bool init = true;
     public int material = 0; // 0: absorbing, 1: reflecting, 2: glass
 
-    bool panelsOn = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -47,12 +46,11 @@ public class ChangeMaterialController : MonoBehaviour
 
     public void ChangeMaterial()
     {
-        panelsOn = !panelsOn;
-        //material = (material + 1) % 3;
-        ZenderZaalAbsorbing.SetActive(panelsOn);
-        ZenderZaalReflecting.SetActive (!panelsOn);
-        //ZenderZaalGlass.SetActive (material == 2);
-        scalePanels.SetActive (panelsOn);
+        material = (material + 1) % 2;
+        ZenderZaalAbsorbing.SetActive(material == 0);
+        ZenderZaalReflecting.SetActive(material == 1);
+        ZenderZaalGlass.SetActive(material == 2);
+        scalePanels.SetActive(material == 0);
 
     }
 }

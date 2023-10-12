@@ -15,7 +15,7 @@ MonoBehaviour:
   lowFreqAbsorption: 1
   midFreqAbsorption: 1
   highFreqAbsorption: 1
-  scattering: 0
+  scattering: 0.05
   lowFreqTransmission: 0
   midFreqTransmission: 0
   highFreqTransmission: 0
