@@ -8,16 +8,19 @@ public class ChangeMaterialController : MonoBehaviour
 {
     public GameObject ZenderZaalAbsorbing;
     public GameObject ZenderZaalReflecting;
+    public GameObject ZenderZaalGlass;
 
     public InputActionReference AbuttonClick;
     public InputActionReference BbuttonClick;
 
-public GameObject scalePanels;
+    public GameObject scalePanels;
 
     [Space]
     public UnityEvent onButtonClicked;
 
     bool init = true;
+    public int material = 0; // 0: absorbing, 1: reflecting, 2: glass
+
     bool panelsOn = true;
     // Start is called before the first frame update
     void Start()
@@ -45,8 +48,10 @@ public GameObject scalePanels;
     public void ChangeMaterial()
     {
         panelsOn = !panelsOn;
-        ZenderZaalAbsorbing.SetActive (panelsOn);
+        //material = (material + 1) % 3;
+        ZenderZaalAbsorbing.SetActive(panelsOn);
         ZenderZaalReflecting.SetActive (!panelsOn);
+        //ZenderZaalGlass.SetActive (material == 2);
         scalePanels.SetActive (panelsOn);
 
     }

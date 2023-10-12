@@ -8,7 +8,6 @@ public class ResetPositionController : MonoBehaviour
 {
     public GameObject xrOrigin;
     public GameObject mainXRCamera;
-    public GameObject baseControllerGameObject;
 
     public TMP_Text holdText;
     public InputActionReference resetPositionReference;
@@ -22,6 +21,7 @@ public class ResetPositionController : MonoBehaviour
     public int countDown = 3;
     private Vector3 origCameraPos = new Vector3();
     private Vector3 origXROriginOffset = new Vector3();
+
     // Start is called before the first frame update
     void Start()
     {
