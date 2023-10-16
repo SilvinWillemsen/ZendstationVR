@@ -8,7 +8,6 @@ public class ChangeMaterialController : MonoBehaviour
 {
     public GameObject ZenderZaalAbsorbing;
     public GameObject ZenderZaalReflecting;
-    public GameObject ZenderZaalGlass;
 
     public InputActionReference AbuttonClick;
     public InputActionReference BbuttonClick;
@@ -47,10 +46,15 @@ public class ChangeMaterialController : MonoBehaviour
     public void ChangeMaterial()
     {
         material = (material + 1) % 2;
-        ZenderZaalAbsorbing.SetActive(material == 0);
-        ZenderZaalReflecting.SetActive(material == 1);
-        ZenderZaalGlass.SetActive(material == 2);
-        scalePanels.SetActive(material == 0);
+        ZenderZaalAbsorbing.SetActive (material == 0);
+        ZenderZaalReflecting.SetActive (material == 1);
 
+        StartCoroutine (SetScalePanels (material == 0));
+    }
+    
+    private IEnumerator SetScalePanels (bool on)
+    {
+        yield return new WaitForSeconds (0.25f);
+        scalePanels.SetActive (on);
     }
 }
