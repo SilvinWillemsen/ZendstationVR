@@ -60,6 +60,11 @@ public class TextManager : MonoBehaviour
         //teleportText.SetText("point down");
     }
 
+    public void SelectExited ()
+    {
+        Debug.Log("Select Exited");
+    }
+
     // Update is called once per frame
     void Update()
     {

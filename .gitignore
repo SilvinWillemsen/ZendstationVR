@@ -76,6 +76,4 @@ crashlytics-build.properties
 
 *.fbx
 *.obj*
-
-*.meta
-
+*.mp4

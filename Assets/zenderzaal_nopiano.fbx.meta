@@ -1,0 +1,616 @@
+fileFormatVersion: 2
+guid: 24188d7d72af94818904228b0b1f1ab7
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_Kozijn-wit_BR_Kozijn-wit_D
+    second: {fileID: 2800000, guid: 4a965ada9836a450eadfaf735f4a31f7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_Kozijn-wit_BR_Kozijn-wit_N
+    second: {fileID: 2800000, guid: 632f2cb67f6e64ccea1749c6abec035f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_Kozijn-wit_BR_Kozijn-wit_S
+    second: {fileID: 2800000, guid: 77576ab356e1c4a56906a9f1e3f52057, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_Volume_wit_BR_Volume_wit_D
+    second: {fileID: 2800000, guid: f5fa69f348ec74481a6d50e8074ed22b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_Volume_wit_BR_Volume_wit_N
+    second: {fileID: 2800000, guid: 024c58a8178aa4564a85601e017457ee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_Volume_wit_BR_Volume_wit_S
+    second: {fileID: 2800000, guid: 2317cf70d54744244a57dccc8c82921a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_aluminium-wit_BR_aluminium-wit_D
+    second: {fileID: 2800000, guid: b08f0c00615a64691af49535bdf4396a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_aluminium-wit_BR_aluminium-wit_N
+    second: {fileID: 2800000, guid: 300ced430a3a04b2091a70bb2645fab9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_aluminium-wit_BR_aluminium-wit_S
+    second: {fileID: 2800000, guid: c18797ddebf6842e8bf1fcf693be915f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_basis_BR_basis_D
+    second: {fileID: 2800000, guid: 7b902263258894f9fa636435f9f1ec4e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_basis_BR_basis_N
+    second: {fileID: 2800000, guid: dba01db986b7a4e44b314c2200871bd2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_basis_BR_basis_S
+    second: {fileID: 2800000, guid: 4f94c9932a7614206ab49e96fcf5f1ed, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_beton_BR_beton_D
+    second: {fileID: 2800000, guid: a4df07b35b17b46cd8f80c5ded940465, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_beton_BR_beton_N
+    second: {fileID: 2800000, guid: 27f5c3eceae04471f876f6f129eda6d0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_beton_BR_beton_S
+    second: {fileID: 2800000, guid: ccb2c0ba72aef4c5993244a7aae81bd3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_gipsplaat_BR_gipsplaat_D
+    second: {fileID: 2800000, guid: 8b3cbf760da864d999e7777d28555138, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_gipsplaat_BR_gipsplaat_N
+    second: {fileID: 2800000, guid: eaa4497ebd56f45c4a6265fe4dc5ae89, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_gipsplaat_BR_gipsplaat_S
+    second: {fileID: 2800000, guid: 51e9de51a8d71400a8c8d07b5445bbd5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_glas_BR_glas_D
+    second: {fileID: 2800000, guid: bafd01b0a85b54664b1b82a698176967, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_glas_BR_glas_N
+    second: {fileID: 2800000, guid: 0846e1f313633416fb2b86edacf2016b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_glas_BR_glas_S
+    second: {fileID: 2800000, guid: cc9ff5164a1ae408d9eea83986350520, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_hout_BR_hout_D
+    second: {fileID: 2800000, guid: 192b067916a174da5af5639eda84a7ee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_hout_BR_hout_N
+    second: {fileID: 2800000, guid: ff937474fc83e4dd488cf30bb5f690d4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_hout_BR_hout_S
+    second: {fileID: 2800000, guid: 223f921120e6a4101b2ef94bb5216a96, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_kunstgraniet_BR_kunstgraniet_D
+    second: {fileID: 2800000, guid: 5501a5a9c35114931a755701b7742850, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_kunstgraniet_BR_kunstgraniet_N
+    second: {fileID: 2800000, guid: 64d5a50d18e304e7ea21caa1eaa5e6fb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_kunstgraniet_BR_kunstgraniet_S
+    second: {fileID: 2800000, guid: aad833512ab664233b83cfdf439827b5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_luchtspouw_BR_luchtspouw_D
+    second: {fileID: 2800000, guid: c94adf351815d4b9681b72a6b1043823, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_luchtspouw_BR_luchtspouw_N
+    second: {fileID: 2800000, guid: 2a5746e9187e84e1595edc86158c6cfa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_luchtspouw_BR_luchtspouw_S
+    second: {fileID: 2800000, guid: db137651f90144d79a32414f3899f9b5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_metaal_deur-wit_BR_metaal_deur-wit_D
+    second: {fileID: 2800000, guid: 6d36661d5f898465fbfdedba9abccb1d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_metaal_deur-wit_BR_metaal_deur-wit_N
+    second: {fileID: 2800000, guid: 7e64ad3631ea749819df34f4b6836930, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_metaal_deur-wit_BR_metaal_deur-wit_S
+    second: {fileID: 2800000, guid: 1a7e6256b68f94117a4f9c754c016285, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_metaal_deur-zwart_BR_metaal_deur-zwart_D
+    second: {fileID: 2800000, guid: 2a1711c795239493c862db02f5d2cfd2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_metaal_deur-zwart_BR_metaal_deur-zwart_N
+    second: {fileID: 2800000, guid: 67df80798e9dc43b7b2ce64c465ec9d2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_metaal_deur-zwart_BR_metaal_deur-zwart_S
+    second: {fileID: 2800000, guid: f5585c679081a4090b1f999517060acd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_metaal_trap-grijs_BR_metaal_trap-grijs_D
+    second: {fileID: 2800000, guid: 49f264afc6faf4298bb0f39bd890d2c9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_metaal_trap-grijs_BR_metaal_trap-grijs_N
+    second: {fileID: 2800000, guid: 2fcf9b8a5333b4b9ab9935e817ff7f2c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_metaal_trap-grijs_BR_metaal_trap-grijs_S
+    second: {fileID: 2800000, guid: 206ae328bc3f34a64b52f96eb05a9c1e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_metselwerk_BR_metselwerk_D
+    second: {fileID: 2800000, guid: b298a272397a646809cf5abb106eb768, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_metselwerk_BR_metselwerk_N
+    second: {fileID: 2800000, guid: 7bcb42d15ebe1483494b0b3283c2ac2a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_metselwerk_BR_metselwerk_S
+    second: {fileID: 2800000, guid: 1e9ff75d1e1df4a81ac693258b7d09f3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_staal-lichtbeige_BR_staal-lichtbeige_D
+    second: {fileID: 2800000, guid: 685be599225854bd4a72a2681834caa5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_staal-lichtbeige_BR_staal-lichtbeige_N
+    second: {fileID: 2800000, guid: f42fe40a19aa14e77b917838123dc31b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BR_staal-lichtbeige_BR_staal-lichtbeige_S
+    second: {fileID: 2800000, guid: 3f28a0e420a3045c89e284a6b8abc504, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BasicShapeMaterial_BasicShapeMaterial_D
+    second: {fileID: 2800000, guid: 92d81d53270634ed0870c0d0b4a7f3a4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BasicShapeMaterial_BasicShapeMaterial_N
+    second: {fileID: 2800000, guid: e81486b8a4c114dccb644c3483918fe4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BasicShapeMaterial_BasicShapeMaterial_S
+    second: {fileID: 2800000, guid: 0b01067a8f90247a29d3debc736327b8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Black_Black_D
+    second: {fileID: 2800000, guid: 35fa57b0fcb2346d49495249166550bd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Black_Black_N
+    second: {fileID: 2800000, guid: f2b18f00fe56a4671ada5c02d13702e4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Black_Black_S
+    second: {fileID: 2800000, guid: c566ee5fb31ca4df4b27fb4f3c372173, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Brick_Brick_D
+    second: {fileID: 2800000, guid: 9cc7545c1ae5c42e39b38577b5353157, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Brick_Brick_N
+    second: {fileID: 2800000, guid: c19522b77219f425c8d5678a82c6a284, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Brick_Brick_S
+    second: {fileID: 2800000, guid: 3554262f22dbb444faf6a5b6d4b83d9b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MI_TreePack02_Walls_Inst_MI_TreePack02_Walls_Inst_D
+    second: {fileID: 2800000, guid: 1c5799abc373e4031b3b0dbece80e22e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MI_TreePack02_Walls_Inst_MI_TreePack02_Walls_Inst_N
+    second: {fileID: 2800000, guid: 52d3a41855f39432f83e4b9b1c2b469c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MI_TreePack02_Walls_Inst_MI_TreePack02_Walls_Inst_S
+    second: {fileID: 2800000, guid: 85117b256fd9049e189eed0823590a4c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_ConcreteFloor_M_ConcreteFloor_D
+    second: {fileID: 2800000, guid: 7b68fc79805ce4902b66cdda4afc3b68, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_ConcreteFloor_M_ConcreteFloor_N
+    second: {fileID: 2800000, guid: 0ef725909be634b39beb667fc6f63004, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_ConcreteFloor_M_ConcreteFloor_S
+    second: {fileID: 2800000, guid: a59cfafdeb1ae42ffa0e8f7d36b6aee1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_TreePack02_Glass_Inst_M_TreePack02_Glass_Inst_D
+    second: {fileID: 2800000, guid: c38845acea4c4407aa2ddcd567b0cad1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_TreePack02_Glass_Inst_M_TreePack02_Glass_Inst_N
+    second: {fileID: 2800000, guid: c68a21302f00c4d3e8268f6641e91221, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_TreePack02_Glass_Inst_M_TreePack02_Glass_Inst_S
+    second: {fileID: 2800000, guid: 872cb83638f754c8b80f875e1fb5fb16, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_TreePack02_Walls_M_TreePack02_Walls_D
+    second: {fileID: 2800000, guid: 2742bf081b21646ea8d232373de533dd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_TreePack02_Walls_M_TreePack02_Walls_N
+    second: {fileID: 2800000, guid: 99086d96ebace44ff90e002d61b797df, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_TreePack02_Walls_M_TreePack02_Walls_S
+    second: {fileID: 2800000, guid: 2ab92696442bc4455b3efe6d35506ca2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: NewMaterial_Inst_NewMaterial_Inst_D
+    second: {fileID: 2800000, guid: 770a09fbcb03f477ea5bfe849321813b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: NewMaterial_Inst_NewMaterial_Inst_N
+    second: {fileID: 2800000, guid: e3c93467ec0b14d8e9e64cde690ed72f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: NewMaterial_Inst_NewMaterial_Inst_S
+    second: {fileID: 2800000, guid: 630fb9334669a4f7b80851b7b32ccf3f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: NewMaterial_NewMaterial_D
+    second: {fileID: 2800000, guid: 4383018c2872240ab92b2bef4657607b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: NewMaterial_NewMaterial_N
+    second: {fileID: 2800000, guid: dee37b71a0fca44229c4d03a20ad5c5f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: NewMaterial_NewMaterial_S
+    second: {fileID: 2800000, guid: f1fced3b206ab47c0b65fb4e982e2db5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RNT_Material_RNT_Material_D
+    second: {fileID: 2800000, guid: b5abb701dee804d42820f2b5937a2e51, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RNT_Material_RNT_Material_N
+    second: {fileID: 2800000, guid: 2e5e91ac225c449e8aad354026f334f3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RNT_Material_RNT_Material_S
+    second: {fileID: 2800000, guid: 9695b47a0ba4c4915a3e888c21372b43, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Roof_Roof_D
+    second: {fileID: 2800000, guid: 87118d5ecab6a457d91ff67aee560cc8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Roof_Roof_N
+    second: {fileID: 2800000, guid: 3ed6be5845ce74cf686d1383b6f89d05, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Roof_Roof_S
+    second: {fileID: 2800000, guid: c6572645389404717a6b1338636d650c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wit_Wit_D
+    second: {fileID: 2800000, guid: 24ea2a0336bba434cb1db6a285f9c149, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wit_Wit_N
+    second: {fileID: 2800000, guid: f05c7602852804f5bbd436dba52174de, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wit_Wit_S
+    second: {fileID: 2800000, guid: 3d416e1023a6444189145837cffd73d9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Woud_Woud_D
+    second: {fileID: 2800000, guid: a46d07dd5498b4c549de0f11ce3a4c6f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Woud_Woud_N
+    second: {fileID: 2800000, guid: 59d52aa89096241f99d55c91b8d6a7d8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Woud_Woud_S
+    second: {fileID: 2800000, guid: 8d417e62f2da54595907c6155797f5ad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: basic_grey_basic_grey_D
+    second: {fileID: 2800000, guid: 762247654b0cf40768eee3c192f4e2bb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: basic_grey_basic_grey_N
+    second: {fileID: 2800000, guid: c26d88e40781140d0aba2f834bf2d419, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: basic_grey_basic_grey_S
+    second: {fileID: 2800000, guid: 43d4308e7221645cea58541c2b447ada, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bathroom_013_flower_plastik_v1_MAT_bathroom_013_flower_plastik_v1_MAT_D
+    second: {fileID: 2800000, guid: 6d50c09eccc5146d0849dec191748cf1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bathroom_013_flower_plastik_v1_MAT_bathroom_013_flower_plastik_v1_MAT_N
+    second: {fileID: 2800000, guid: cadc8a2ad963f4d98b459c1c1ad8ea52, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bathroom_013_flower_plastik_v1_MAT_bathroom_013_flower_plastik_v1_MAT_S
+    second: {fileID: 2800000, guid: c5074dd738280482aab22d0d9fa926dc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: brushed_chrome_brushed_chrome_D
+    second: {fileID: 2800000, guid: 2d8ac37df298e4d4d95ecadd1ebf3a7a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: brushed_chrome_brushed_chrome_N
+    second: {fileID: 2800000, guid: d24c619490ef9475496b5d42ab777e05, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: brushed_chrome_brushed_chrome_S
+    second: {fileID: 2800000, guid: 4c56c91ace2124e4bb8aa73e650848a2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: dark_plastic_dark_plastic_D
+    second: {fileID: 2800000, guid: 7079a877f5c8e497898b9c9352bbad76, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: dark_plastic_dark_plastic_N
+    second: {fileID: 2800000, guid: e5cd678e11b894d679020cd505f94b2c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: dark_plastic_dark_plastic_S
+    second: {fileID: 2800000, guid: d2dfc52c00f284a80877f9b2d04b9659, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: leather_black_leather_black_D
+    second: {fileID: 2800000, guid: 48040b2c3282348af80acfafd644b8a4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: leather_black_leather_black_N
+    second: {fileID: 2800000, guid: 9b761aaac65c846d3b85511f63a421fc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: leather_black_leather_black_S
+    second: {fileID: 2800000, guid: 52d3187250c7841c684b8db494dd9456, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: logo-iboma_Mat_logo-iboma_Mat_D
+    second: {fileID: 2800000, guid: 4b257d6b61b1a42d694a94227bbd5aed, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: logo-iboma_Mat_logo-iboma_Mat_N
+    second: {fileID: 2800000, guid: 2c9070450567741879aafb181be2cc46, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: logo-iboma_Mat_logo-iboma_Mat_S
+    second: {fileID: 2800000, guid: 1956e970d72d74f8c9c9cfcd54050bdf, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
