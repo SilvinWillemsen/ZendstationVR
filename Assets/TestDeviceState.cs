@@ -26,9 +26,6 @@ public class TestDeviceState : MonoBehaviour
 
     void Update()
     {
-        Application.runInBackground = true;
-        //Debug.Log("Active = " + XRSettings.isDeviceActive);
-        //Debug.Log("Enabled = " + XRSettings.enabled);
 
         if (mainCamera.transform.position == lastPosition)
         {
@@ -49,11 +46,6 @@ public class TestDeviceState : MonoBehaviour
             if (hmdOff)
             {
                 Debug.Log ("HMD is on again!");
-                //XRDevice.DisableAutoXRCameraTracking (mainCamera.GetComponent<Camera>(), false);
-                //XRSettings.enabled = true;
-                //XRGeneralSettings.Instance.Manager.InitializeLoader();
-                //XRGeneralSettings.Instance.Manager.StartSubsystems();
-
                 ResetInteractions();
 
                 ///// Not necessary, pretty sure that Oculus does this by itself /////
