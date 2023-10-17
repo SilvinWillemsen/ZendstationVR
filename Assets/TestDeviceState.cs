@@ -1,14 +1,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
-using UnityEngine.XR.Management;
 
 public class TestDeviceState : MonoBehaviour
 {
     public GameObject mainCamera;
+    public GameObject xrOrigin;
+
     public VideoController videoController;
+    public ChangeSourceController sourceController;
+    public ChangeMaterialController materialController;
 
     public XRDisplaySubsystem system;
+    public BalconyToggle resetPosition;
 
     private Vector3 lastPosition = new Vector3();
     private bool hmdOff = true;
@@ -50,13 +54,18 @@ public class TestDeviceState : MonoBehaviour
                 //XRGeneralSettings.Instance.Manager.InitializeLoader();
                 //XRGeneralSettings.Instance.Manager.StartSubsystems();
 
+                ResetInteractions();
+
+                ///// Not necessary, pretty sure that Oculus does this by itself /////
                 List<XRDisplaySubsystem> xrDisplaySubsystems = new List<XRDisplaySubsystem>();
                 SubsystemManager.GetInstances<XRDisplaySubsystem>(xrDisplaySubsystems);
-
                 if (xrDisplaySubsystems.Count != 0)
                     xrDisplaySubsystems[0].Start();
+                /////
+
 
                 videoController.StopVideo();
+
                 hmdJustOff = false;
                 hmdOff = false;
             }
@@ -66,17 +75,29 @@ public class TestDeviceState : MonoBehaviour
         {
             Debug.Log("HMD is off!!");
 
+            sourceController.StopPlaying();
+            videoController.StartVideo();
+
             List<XRDisplaySubsystem> xrDisplaySubsystems = new List<XRDisplaySubsystem>();
             SubsystemManager.GetInstances<XRDisplaySubsystem>(xrDisplaySubsystems);
 
             if (xrDisplaySubsystems.Count != 0)
                 xrDisplaySubsystems[0].Stop();
 
-            videoController.StartVideo();
+            mainCamera.GetComponent<Camera>().fieldOfView = 60.0f;
+
             hmdJustOff = false;
             hmdOff = true;
         }
         lastPosition = mainCamera.transform.position;
 
+    }
+
+    public void ResetInteractions()
+    {
+        resetPosition.TogglePosition(true);
+        sourceController.SetSource(0);
+        materialController.SetMaterial(0);
+        xrOrigin.transform.eulerAngles = new Vector3(0, -180, 0);
     }
 }

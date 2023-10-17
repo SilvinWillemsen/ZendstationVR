@@ -46,12 +46,22 @@ public class ChangeMaterialController : MonoBehaviour
     public void ChangeMaterial()
     {
         material = (material + 1) % 2;
-        ZenderZaalAbsorbing.SetActive (material == 0);
-        ZenderZaalReflecting.SetActive (material == 1);
+        ApplyMaterial();
+    }
 
-        StartCoroutine (SetScalePanels (material == 0));
+    public void SetMaterial (int materialIn)
+    {
+        material = materialIn;
+        ApplyMaterial();
     }
     
+    public void ApplyMaterial()
+    {
+        ZenderZaalAbsorbing.SetActive(material == 0);
+        ZenderZaalReflecting.SetActive(material == 1);
+
+        StartCoroutine(SetScalePanels(material == 0));
+    }
     private IEnumerator SetScalePanels (bool on)
     {
         yield return new WaitForSeconds (0.25f);

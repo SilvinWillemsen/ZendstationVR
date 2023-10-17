@@ -45,6 +45,18 @@ public class ChangeSourceController : MonoBehaviour
     public void ChangeSource()
     {
         sourceIdx = (sourceIdx + 1) % 3;
+        ApplySource();
+
+    }
+
+    public void SetSource (int idx)
+    {
+        sourceIdx = idx;
+        ApplySource();
+    }
+
+    public void ApplySource()
+    {
         audioSource.Stop();
 
         piano.SetActive (sourceIdx == 0);
@@ -54,4 +66,10 @@ public class ChangeSourceController : MonoBehaviour
         audioSource.clip = audioClips[sourceIdx];
         audioSource.Play();
     }
+
+    public void StopPlaying()
+    {
+        audioSource.Stop();
+    }
+
 }

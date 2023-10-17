@@ -42,9 +42,13 @@ public class BalconyToggle : MonoBehaviour
     {
     }
 
-    public void TogglePosition()
+    public void TogglePosition (bool forceToGround = false)
     {
-        isDown = !isDown;
+        if (forceToGround)
+            isDown = true;
+        else
+            isDown = !isDown;
+
         if (isDown)
         {
             var distanceDiff = mainXRCamera.transform.position - origCameraPos;

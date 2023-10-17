@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
+using UnityEngine.XR;
+
 public class VideoController : MonoBehaviour
 {
     VideoPlayer videoPlayer;
@@ -18,12 +20,12 @@ public class VideoController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        Application.runInBackground = true;
-    }
+    //void Update()
+    //{
+    //    Application.runInBackground = true;
+    //}
 
-    void FixedUpdate()
+    void Update()
     {
         if (fadingIn)
         {
