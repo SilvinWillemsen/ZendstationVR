@@ -12,7 +12,7 @@ public class VideoController : MonoBehaviour
     bool fadingOut = false;
     int fadeInCounter = 0;
     int fadeOutCounter = 0;
-
+    float fadeInSec = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,43 +25,26 @@ public class VideoController : MonoBehaviour
     //    Application.runInBackground = true;
     //}
 
-    void Update()
+    void FixedUpdate()
     {
         if (fadingIn)
         {
-            if (fadeInCounter / 24.0f >= 1.0f)
+            if (fadeInSec * fadeInCounter / 50.0f >= 1.0f)
             {
                 videoPlayer.targetCameraAlpha = 1.0f;
                 fadingIn = false;
             }
             else
             {
-                videoPlayer.targetCameraAlpha = fadeInCounter / 24.0f;
+                videoPlayer.targetCameraAlpha = fadeInSec * fadeInCounter / 50.0f;
             }
             ++fadeInCounter;
         }
-        if (fadingOut)
-        {
-            if (fadeOutCounter / 24.0f >= 1.0f)
-            {
-                videoPlayer.targetCameraAlpha = 0.0f;
-                fadingOut = false;
-                videoPlayer.Stop();
-            }
-            else
-            {
-                videoPlayer.targetCameraAlpha = 1.0f - fadeOutCounter / 24.0f;
-            }
-            ++fadeOutCounter;
-        }
-
     }
 
     public void StartVideo()
     {
         videoPlayer.Play();
-        fadingOut = false;
-        fadeOutCounter = 0;
 
         fadingIn = true;
         fadeInCounter = 0;
@@ -73,7 +56,7 @@ public class VideoController : MonoBehaviour
         fadingIn = false;
         fadeInCounter = 0;
 
-        fadingOut = true;
-        fadeOutCounter = 0;
+        videoPlayer.Stop();
+
     }
 }
