@@ -15,7 +15,7 @@ public class TestDeviceState : MonoBehaviour
     public BalconyToggle resetPosition;
 
     private Vector3 lastPosition = new Vector3();
-    private bool hmdOff = true;
+    private bool hmdOff = false;
     private bool hmdJustOff = false;
     float time = 0; 
     void Start()
