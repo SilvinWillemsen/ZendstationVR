@@ -20,6 +20,8 @@ public class ChangeSourceController : MonoBehaviour
 
     bool init = true;
     int sourceIdx = 0;
+    bool shouldPlay = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -57,6 +59,9 @@ public class ChangeSourceController : MonoBehaviour
 
     public void ApplySource()
     {
+        if (!shouldPlay)
+            return;
+
         audioSource.Stop();
 
         piano.SetActive (sourceIdx == 0);
@@ -67,8 +72,14 @@ public class ChangeSourceController : MonoBehaviour
         audioSource.Play();
     }
 
+    public void StartPlaying()
+    {
+        shouldPlay = true;
+        SetSource(0);
+    }
     public void StopPlaying()
     {
+        shouldPlay = false;
         audioSource.Stop();
     }
 

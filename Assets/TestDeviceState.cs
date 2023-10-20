@@ -88,7 +88,7 @@ public class TestDeviceState : MonoBehaviour
     public void ResetInteractions()
     {
         resetPosition.TogglePosition(true);
-        sourceController.SetSource(0);
+        sourceController.StartPlaying();
         materialController.SetMaterial(0);
         xrOrigin.transform.eulerAngles = new Vector3(0, -180, 0);
     }
